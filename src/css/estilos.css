@@ -65,6 +65,11 @@ body {
     text-transform: uppercase;
     transition: 0.5s all ease-in-out;
 }
+.botao-fundo {
+    color: #d5011d;
+    height: 50px;
+    width: 56px;
+}
 
 .container .botao:hover {
     transform: scale(1.1)

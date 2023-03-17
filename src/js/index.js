@@ -24,6 +24,12 @@ const botaoFecharModal = document.querySelector(".fechar-modal");
 const modal = document.querySelector(".modal");
 console.log(video.src);
 const linkDoVideo = video.src
+const video3 = document.querySelector('.video');
+const botaoPlay = document.querySelector(".botao-fundo"); 
+
+botaoPlay.addEventListener('click', function() {
+    video.play();
+});
 
 function alternarModal(){
     modal.classList.toggle("aberto")
